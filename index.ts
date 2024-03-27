@@ -38,6 +38,5 @@ if(pinAnswer.pin === myPin){
         console.log("Your Balance is:" + " " + myBalance)
     }
 }
-
 else{
     console.log("Incorrect Pin Number")};
