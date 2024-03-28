@@ -29,16 +29,16 @@ if (pinAnswer.pin === myPin) {
             },
         ]);
         if (fastCashAns.fastCash === "500") {
-            console.log(("Your Remaing Balance is:" + " " + [myBalance = myBalance - 500]));
+            console.log("Your Remaing Balance is:" + " " + [(myBalance = myBalance - 500)]);
         }
         else if (fastCashAns.fastCash === "1000") {
-            console.log(("Your Remaing Balance is:" + " " + [myBalance = myBalance - 1000]));
+            console.log("Your Remaing Balance is:" + " " + [(myBalance = myBalance - 1000)]);
         }
         else if (fastCashAns.fastCash === "2000") {
-            console.log(("Your Remaing Balance is:" + " " + [myBalance = myBalance - 2000]));
+            console.log("Your Remaing Balance is:" + " " + [(myBalance = myBalance - 2000)]);
         }
         else if (fastCashAns.fastCash === "5000") {
-            console.log(("Your Remaing Balance is:" + " " + [myBalance = myBalance - 5000]));
+            console.log("Your Remaing Balance is:" + " " + [(myBalance = myBalance - 5000)]);
         }
     }
     if (operationAns.operation === "Withdraw") {
@@ -58,10 +58,10 @@ if (pinAnswer.pin === myPin) {
         else {
             myBalance = myBalance - amountAns.amount;
         }
-        console.log("Your Remaing Balance is:" + " " + myBalance);
+        console.log("Your Remaining Balance is:" + " " + myBalance);
     }
     else if (operationAns.operation === "Balance Inquiry") {
-        console.log("Your Balance is:" + " " + myBalance);
+        console.log("Your Current Balance is:" + " " + myBalance);
     }
 }
 else {
