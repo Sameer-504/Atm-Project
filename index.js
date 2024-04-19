@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
+console.log(chalk.greenBright.bold("\n \t Wellcome to code with - 'Sameer Anis' - ATM_Project\n"));
 let myBalance = 10000; //Dollar
 let myPin = 1234;
 let pinAnswer = await inquirer.prompt([
